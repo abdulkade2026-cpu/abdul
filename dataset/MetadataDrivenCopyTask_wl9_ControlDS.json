@@ -1,0 +1,19 @@
+{
+	"name": "MetadataDrivenCopyTask_wl9_ControlDS",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_azureDB",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "MetadataDrivenCopyTask_wl9_20260305"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"table": "MainControlTable_wl9"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

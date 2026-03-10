@@ -1,0 +1,21 @@
+{
+	"name": "ls_sqlserverlocal",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "LAPTOP-VM4LFDO9",
+			"database": "AdventureWorksLT2019",
+			"encrypt": "mandatory",
+			"trustServerCertificate": true,
+			"authenticationType": "SQL",
+			"userName": "ad_login",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIyNmMwNjE5YS05NmQ4LTQ2MTgtOWM1Ni1kZTA1YzAyNDM1ZWEiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "IR-local",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

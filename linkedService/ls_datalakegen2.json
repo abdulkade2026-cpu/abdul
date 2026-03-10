@@ -1,0 +1,12 @@
+{
+	"name": "ls_datalakegen2",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://ademardl26.dfs.core.windows.net/",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEI3RjhERDUwLUFGNjMtNDRBRi1BMkVBLUY0QzY2NkJENTg3Ql85NTFiMWMxZi01NWM1LTRkY2QtYjE3ZC01MTJjOTZkYTViZmMiDQp9"
+		}
+	}
+}

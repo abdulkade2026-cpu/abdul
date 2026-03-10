@@ -1,0 +1,43 @@
+{
+	"name": "ds_watermarktable",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_sqlserverlocal",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [
+			{
+				"name": "ID",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "table_name",
+				"type": "varchar"
+			},
+			{
+				"name": "watermark_column",
+				"type": "varchar"
+			},
+			{
+				"name": "last_watermark_value",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			},
+			{
+				"name": "updated_at",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "adf_watermark_control"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

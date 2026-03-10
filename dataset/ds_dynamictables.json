@@ -1,0 +1,13 @@
+{
+	"name": "ds_dynamictables",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_azureDB",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
